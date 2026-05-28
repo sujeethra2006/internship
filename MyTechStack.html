@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Tech Stack</title>
+    <style>
+        body {
+            background: #01232c;
+            font-family:Yu Gothic;
+            color: rgb(255, 255, 255);
+            margin: 2px;
+            padding: 30px;
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 50px;
+            font-family:Copperplate Gothic;
+            color: #7ee1ff;
+        }
+        .tabs {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            margin-bottom: 40px;
+            flex-wrap: wrap;
+            font-weight: bold;
+        }
+        .tab {
+            padding: 12px 25px;
+            background:#003a61;
+            border-radius: 15px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+        .tab.active {
+            background: #0d95bf;
+        }
+        .container {
+            display: grid;
+            grid-template-columns:repeat(4,1fr);
+            gap: 20px;
+        }
+        .card {
+            background: #002949;
+            border-radius: 15px;
+            padding: 25px;
+            text-align: center;
+            transition: 0.3s;
+        }
+        .card img {
+            width: 100px;
+            height: 70px;
+            object-fit: contain;
+            margin-bottom: 20px;
+        }
+        .card h2 {
+            font-size: 25px;
+            margin: 10px 0;
+            color: rgb(244, 164, 14);
+        }
+    </style>
+</head>
+<body>
+    <h1>My <span>Tech Stack</span></h1>
+    <!-- Tabs -->
+    <div class="tabs">
+        <div class="tab active">All (25)</div>
+        <div class="tab">Languages (7)</div>
+        <div class="tab">Tools (8)</div>
+        <div class="tab">Libraries (5)</div>
+        <div class="tab">Databases (4)</div>
+    </div>
+    <div class="container">
+        <div class="card">
+            <img src="C:\Users\sujee\OneDrive\Pictures\Screenshots\C.png">
+            <h2>C</h2>
+        </div>
+        <div class="card">
+            <img src="C:\Users\sujee\OneDrive\Pictures\Screenshots\C++.png">
+            <h2>C++</h2>
+        </div>
+        <div class="card">
+            <img src="C:\Users\sujee\OneDrive\Pictures\Screenshots\python.png">
+            <h2>Python</h2>
+        </div>
+        <div class="card">
+            <img src="C:\Users\sujee\OneDrive\Pictures\Screenshots\java.png">
+            <h2>Java</h2>
+        </div>
+        <div class="card">
+            <img src="C:\Users\sujee\OneDrive\Pictures\Screenshots\html.png">
+            <h2>HTML</h2>
+        </div>
+        <div class="card">
+            <img src="C:\Users\sujee\OneDrive\Pictures\Screenshots\css.png">
+            <h2>CSS</h2>
+        </div>
+        <div class="card">
+            <img src="C:\Users\sujee\OneDrive\Pictures\Screenshots\react.png">
+            <h2>React</h2>
+        </div>
+        <div class="card">
+            <img src="C:\Users\sujee\OneDrive\Pictures\Screenshots\sql.png">
+            <h2>SQL</h2>
+        </div>
+       <div class="card">
+            <img src="C:\Users\sujee\OneDrive\Pictures\Screenshots\pandas.png">
+            <h2>Pandas</h2>
+        </div>
+        <div class="card">
+            <img src="C:\Users\sujee\OneDrive\Pictures\Screenshots\numpy.png">
+            <h2>Numpy</h2>
+        </div> 
+         <div class="card">
+            <img src="C:\Users\sujee\OneDrive\Pictures\Screenshots\mongodb.png">
+            <h2>MongoDB</h2>
+        </div> 
+        <div class="card">
+            <img src="C:\Users\sujee\OneDrive\Pictures\Screenshots\sqlite3.png">
+            <h2>Sqlite3</h2>
+        </div> 
+    </div>
+</body>
+</html>
