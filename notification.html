@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notification Preferences</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"></link>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet"></link>
+    <style>
+        body { background-color: lightgrey; font-family: sans-serif; }
+        .nav-top-bar { 
+            background-color: white; 
+            border-bottom-width: 1px; 
+            border-bottom-style: solid; 
+            border-bottom-color: silver; 
+            font-size: 13px; 
+            font-weight: 500; 
+        }
+        .sidebar-item { 
+            background-color: white; 
+            border-left-width: 4px; 
+            border-left-style: solid; 
+            border-left-color: blue; 
+            color: blue; 
+            font-weight: 500; 
+        }
+        .workspace-card { 
+            background-color: white; 
+            border-radius: 4px; 
+        }
+    </style>
+</head>
+<body>
+
+<div class="container my-4">
+    <div class="workspace-card overflow-hidden">
+        <div class="nav-top-bar d-flex justify-content-between p-3 border-bottom text-muted">
+            <span>Electronics <i class="bi bi-chevron-down small"></i></span>
+            <span>TVs & Appliances <i class="bi bi-chevron-down small"></i></span>
+            <span>Men <i class="bi bi-chevron-down small"></i></span>
+            <span>Women <i class="bi bi-chevron-down small"></i></span>
+            <span>Baby & Kids <i class="bi bi-chevron-down small"></i></span>
+            <span>Home & Furniture <i class="bi bi-chevron-down small"></i></span>
+            <span class="d-none d-md-inline">Sports, Books & More <i class="bi bi-chevron-down small"></i></span>
+            <span class="d-none d-md-inline">Flights</span>
+            <span class="d-none d-md-inline text-danger">Offer Zone</span>
+        </div>
+
+        <div class="row g-0">
+            <div class="col-md-3 border-end bg-light" style="min-height: 450px;">
+                <div class="p-3 text-muted small fw-bold border-bottom"><i class="bi bi-bell-fill me-2"></i> NOTIFICATION PREFERENCES</div>
+                <div class="p-3 sidebar-item">Desktop Notifications</div>
+            </div>
+            <div class="col-md-9 p-4 bg-white">
+                <div class="row">
+                    <div class="col-lg-7">
+                        <h5 class="mb-4 fw-bold">Desktop Notifications</h5>
+                        <div class="mb-4 border-bottom pb-3">
+                            <div class="form-check d-flex justify-content-between align-items-start">
+                                <div>
+                                    <input class="form-check-input" type="checkbox" checked="checked" id="noti1"></input>
+                                    <label class="form-check-label fw-bold ms-2" for="noti1">My Orders</label>
+                                    <p class="text-muted small mb-0 ms-2">Latest updates on your orders</p>
+                                </div>
+                                <i class="bi bi-chevron-down text-muted"></i>
+                            </div>
+                        </div>
+                        <div class="mb-4 border-bottom pb-3">
+                            <div class="form-check d-flex justify-content-between align-items-start">
+                                <div>
+                                    <input class="form-check-input" type="checkbox" checked="checked" id="noti2"></input>
+                                    <label class="form-check-label fw-bold ms-2" for="noti2">Reminders</label>
+                                    <p class="text-muted small mb-0 ms-2">Price Drops, Back-in-stock Products, etc.</p>
+                                </div>
+                                <i class="bi bi-chevron-down text-muted"></i>
+                            </div>
+                        </div>
+                        <div class="mb-4 border-bottom pb-3">
+                            <div class="form-check d-flex justify-content-between align-items-start">
+                                <div>
+                                    <input class="form-check-input" type="checkbox" checked="checked" id="noti3"></input>
+                                    <label class="form-check-label fw-bold ms-2" for="noti3">Recommendations by Flipkart</label>
+                                    <p class="text-muted small mb-0 ms-2">Products, offers and curated content based on your interest</p>
+                                </div>
+                                <i class="bi bi-chevron-down text-muted"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 text-center d-flex flex-column justify-content-center p-4 rounded bg-light border">
+                        <div class="mx-auto bg-danger text-white rounded-circle d-flex align-items-center justify-content-center mb-3" style="width: 65px; height: 65px;">
+                            <i class="bi bi-bell-slash fs-3"></i>
+                        </div>
+                        <p class="text-danger small fw-bold mb-1">Oops! You are missing out on a lot of important notifications.</p>
+                        <p class="text-muted small mb-3">Please switch it on from Browser Settings.</p>
+                        <div class="text-muted small border-top pt-2">
+                            <strong>How to Unblock</strong><br></br>
+                            <span class="text-success fw-bold"><i class="bi bi-shield-lock-fill"></i> &gt; Notifications &gt; Allow</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
